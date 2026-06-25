@@ -1,8 +1,6 @@
+function buscarUsuarioNoBanco(id) {
+  // Imagine que isso acessa banco/API
+  return { id, nome: 'João Mockado' };
+}
 
-test('exemplo com jest.fn', () => {
-  const funcaoFalsa = jest.fn();
-  funcaoFalsa.mockReturnValue(10);
-
-  expect(funcaoFalsa()).toBe(10);
-  expect(funcaoFalsa).toHaveBeenCalled();
-});
+module.exports = { buscarUsuarioNoBanco };
