@@ -4,4 +4,3 @@ function buscarUsuarioNoBanco(id) {
 }
 
 module.exports = { buscarUsuarioNoBanco };
-""
