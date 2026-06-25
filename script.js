@@ -5,8 +5,3 @@ function somar(a, b) {
 function mensagemBoasVindas(nome) {
   return `Olá, ${nome}!`;
 }
-
-module.exports = {
-  somar,
-  mensagemBoasVindas
-};
