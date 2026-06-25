@@ -1,4 +1,4 @@
-const cursoController = require("./cursoController");
+const cursoController = require("../cursoController");
 
 describe("Curso Controller", () => {
   test("Retorna nome do curso", () => {

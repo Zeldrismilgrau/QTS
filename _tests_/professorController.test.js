@@ -1,4 +1,4 @@
-const professorController = require("./professorController");
+const professorController = require("../professorController");
 
 describe("Professor Controller", () => {
   test("Retorna professor", () => {

@@ -1,4 +1,4 @@
-const componenteController = require("./componenteController");
+const componenteController = require("../componenteController");
 
 describe("Componente Controller", () => {
   test("Retorna nome do componente", () => {
